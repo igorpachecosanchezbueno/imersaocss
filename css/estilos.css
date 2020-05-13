@@ -1,8 +1,10 @@
 body{
-  background-image: url('https://wallpaperaccess.com/full/1267048.jpg');
+  background-image: url('https://cdn.clipart.email/79cc8072d6d59ed4fc537a443ede177d_clouds-by-brianlechthaler-on-deviantart_2560-1600.png');
   background-size: auto 100vh;
   font-family:Arial;
-  height: 100vh
+  height: 100vh;
+  /*background-repeat: no-repeat;*/
+  
 }
 
 .menu{
@@ -29,12 +31,16 @@ a:hover{
 
 .site-subtitle,
 .site-title {
-  color: teal;
+  color: orangered;
   text-align: center;  
+}
+
+.site-title{
+  font-size: 300%;
 }
 
 .site-subtitle{
   font-style: italic;
-  color: black;
+  color: teal;
 }
 
