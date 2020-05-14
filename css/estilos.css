@@ -9,6 +9,15 @@ body{
     background-size: auto 100vh;
     font-family: Arial;
     height: 100vh;
+    font-size: 10px;
+}
+
+/* se a tela tiver pelo menos 400px vai carregar estes estilos */
+@media (min-width: 400px) {
+    body{
+        font-size: 14px;
+    }
+
 }
 
 header{
