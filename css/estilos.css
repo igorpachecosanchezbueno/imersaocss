@@ -1,46 +1,38 @@
 body{
-  background-image: url('https://cdn.clipart.email/79cc8072d6d59ed4fc537a443ede177d_clouds-by-brianlechthaler-on-deviantart_2560-1600.png');
-  background-size: auto 100vh;
-  font-family:Arial;
-  height: 100vh;
-  /*background-repeat: no-repeat;*/
-  
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c3e293de-c36a-426d-9677-18da8573cc15/d47x7wv-1fdec6da-7ef8-45a6-975e-4c6bbb79f756.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzNlMjkzZGUtYzM2YS00MjZkLTk2NzctMThkYTg1NzNjYzE1XC9kNDd4N3d2LTFmZGVjNmRhLTdlZjgtNDVhNi05NzVlLTRjNmJiYjc5Zjc1Ni5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.51-1aAReTaHB4oHaobTO8vM1oIMfGEcLqUC9D4rjUR4');
+    background-size: auto 100vh;
+    font-family: Arial;
+    height: 100vh;
 }
 
 .menu{
-  background-color: white;
+    background-color:white;
 }
 
 .menu li{
-  list-style: none;
+    list-style: none;
 }
 
 .menu ul{
-  display: flex;
-  justify-content: space-around
+    display: flex;
+    justify-content: space-around;
 }
 
-a {
-  color: teal;
-  text-decoration: none;
+a{
+    color: teal;
+    text-decoration:none;
 }
 
 a:hover{
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-.site-subtitle,
-.site-title {
-  color: orangered;
-  text-align: center;  
-}
-
-.site-title{
-  font-size: 300%;
+.site-title,
+.site-subtitle{
+    text-align: center;
+    color: teal;
 }
 
 .site-subtitle{
-  font-style: italic;
-  color: teal;
+    font-style:italic;
 }
-
